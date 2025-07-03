@@ -1,0 +1,2825 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-NZNJPMP');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>建物一覧 ｜SHO CITY</title>
+    <link href="./css/output.css" rel="stylesheet" />
+    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="apple-touch-icon" href="./images/favicon.png" />
+  </head>
+  <body class="bg-white pt-[90px] text-color-5 lg:bg-color-4">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NZNJPMP"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- logo -->
+    <div
+      class="logo fixed left-[30px] top-0 z-10 rounded-b-[10px] bg-white px-2 py-[5px] md:rounded-none md:rounded-b-[20px] lg:px-5 lg:py-2"
+    >
+      <a class="logo-href cursor-pointer" title="Logo">
+        <img class="h-[40px] lg:h-[75px]" src="./images/logo_sho_sekkei.svg" alt="Logo" />
+      </a>
+    </div>
+    <!-- menu -->
+    <div class="menu fixed right-[30px] top-0 z-10 flex gap-x-5">
+      <a
+        class="logo-href flex h-[50px] w-[50px] cursor-pointer items-center justify-center rounded-b-[10px] bg-white hover:text-primary md:rounded-none md:rounded-b-[20px] lg:h-[90px] lg:w-[90px]"
+        title="全体マップ ｜SHO CITY"
+      >
+        <div class="w-[29px] lg:w-[60px]">
+          <svg class="Icon w-full" width="63" height="76" viewBox="0 0 63 76">
+            <use href="#ic_shocity_02" />
+          </svg>
+        </div>
+      </a>
+      <button
+        data-modal-target="extralarge-modal"
+        data-modal-toggle="extralarge-modal"
+        class="flex h-[50px] w-[50px] items-center justify-center rounded-[10px] bg-white hover:text-primary md:rounded-none md:rounded-b-[20px] lg:h-[90px] lg:w-[90px]"
+        type="button"
+      >
+        <div class="w-[29px] lg:w-[60px]">
+          <svg class="Icon w-full" viewBox="0 0 60 66">
+            <use href="#ic_hamburger" />
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div class="container">
+      <div class="hidden pb-[22px] pt-[38px] text-sm text-black lg:block">
+        SHO CITY　＞　SHO CITY建物一覧
+      </div>
+      <div class="mb-4 mt-2.5 flex items-center justify-center lg:mb-7 lg:mt-0 lg:justify-start">
+        <span class="text-xl font-bold text-color-5 lg:text-2xl">SHO CITY建物一覧</span>
+        <img class="ml-2.5 w-[23px] lg:w-auto" src="./images/show_city.svg" alt="Icon" />
+      </div>
+      <section
+        class="mb-7 rounded-[30px] bg-white py-5 lg:mb-12 lg:px-28 lg:py-14 lg:drop-shadow-md"
+        id="building-list"
+      >
+        <div
+          class="grid grid-cols-2 gap-x-5 gap-y-[25px] lg:grid-cols-4 lg:grid-rows-5 lg:gap-x-10"
+        >
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_01"
+            title="マンション"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="30" height="30" viewBox="0 0 55 55">
+                <use href="#ic_city_01" />
+              </svg>
+            </span>
+            マンション
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_02"
+            title="オフィスビル"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="30" height="30" viewBox="0 0 55 55">
+                <use href="#ic_city_02" />
+              </svg>
+            </span>
+            オフィスビル
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_03"
+            title="店舗"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="25" height="23" viewBox="0 0 55 55">
+                <use href="#ic_city_03" />
+              </svg>
+            </span>
+            店舗・商業施設
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_04"
+            title="工場倉庫"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="29" height="29" viewBox="0 0 55 55">
+                <use href="#ic_city_04" />
+              </svg>
+            </span>
+            工場倉庫
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_05"
+            title="港湾施設"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="32" height="25" viewBox="0 0 65 52">
+                <use href="#ic_city_05" />
+              </svg>
+            </span>
+            港湾施設
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_06"
+            title="スポーツ施設"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="28" height="17" viewBox="0 0 60 38">
+                <use href="#ic_city_06" />
+              </svg>
+            </span>
+            スポーツ施設
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_07"
+            title="教育・保育施設"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="30" height="28" viewBox="0 0 55 52">
+                <use href="#ic_city_07" />
+              </svg>
+            </span>
+            教育・保育施設
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_08"
+            title="消防署"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="31" height="24" viewBox="0 0 55 43">
+                <use href="#ic_city_08" />
+              </svg>
+            </span>
+            消防署
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_09"
+            title="交番"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="33" height="24" viewBox="0 0 55 41">
+                <use href="#ic_city_09" />
+              </svg>
+            </span>
+            交番
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_10"
+            title="駅"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="33" height="27" viewBox="0 0 55 46">
+                <use href="#ic_city_10" />
+              </svg>
+            </span>
+            駅
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_11"
+            title="動物園"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="33" height="23" viewBox="0 0 60 42">
+                <use href="#ic_city_11" />
+              </svg>
+            </span>
+            動物園
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_12"
+            title="キャンプ場"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="33" height="26" viewBox="0 0 55 40">
+                <use href="#ic_city_12" />
+              </svg>
+            </span>
+            キャンプ場
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_13"
+            title="ホテル"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="32" height="26" viewBox="0 0 55 55">
+                <use href="#ic_city_13" />
+              </svg>
+            </span>
+            ホテル
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_14"
+            title="医療・福祉施設"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="31" height="29" viewBox="0 0 60 50">
+                <use href="#ic_city_14" />
+              </svg>
+            </span>
+            医療・福祉施設
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_15"
+            title="公園"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="31" height="29" viewBox="0 0 55 53">
+                <use href="#ic_city_15" />
+              </svg>
+            </span>
+            公園
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_16"
+            title="本社ビル"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="36" height="30" viewBox="0 0 36 30">
+                <use href="#ic_18_02" />
+              </svg>
+            </span>
+            本社ビル
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_17"
+            title="島しょ部"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="28" height="24" viewBox="0 0 35 35">
+                <use href="#ic_city_16" />
+              </svg>
+            </span>
+            島しょ部
+          </a>
+          <a
+            class="flex items-center gap-x-4 text-sm font-bold text-color-5 lg:w-[200px] lg:text-base"
+            href="#city_18"
+            title="ウミガメ"
+          >
+            <span
+              class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+            >
+              <svg class="Icon h-auto w-full" width="33" height="31" viewBox="0 0 35 35">
+                <use href="#ic_city_19" />
+              </svg>
+            </span>
+            ウミガメ
+          </a>
+        </div>
+      </section>
+      <!-- CITY 01 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_01"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                01
+              </div>
+              <div class="text-lg font-bold lg:text-2xl">
+                マンション
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Condominium</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/building_01_0804.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              マンションにも「熟年」の味わい。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              マンションに迫る老い。しかし建替えは難しいのが現実です。そんな中、私たち翔設計が目指しているのは、次世代にもしっかりと住み継いでいける、マンションの長寿命化。人と同じように、マンションにも「熟年」の味わいがあります。専門家が手をかけ「適切な方法」で「適切な管理」を行うことで味わいと価値を高めるヴィンテージワインのように、翔設計では高経年マンションの長寿命化と資産価値向上のための最適解を専門家としてご提案します。新築のマンションにはない熟年の味わいを感じられるヴィンテージマンションへの熟成をお手伝いします。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 02 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_02"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                02
+              </div>
+              <div class="text-lg font-bold lg:text-2xl">
+                オフィスビル
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Office buildings</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_02.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              地球にも人にもオアシスが必要。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              温暖化が地球規模の問題となっている現代、オフィスビルの環境性能向上は、今や必須条件と言えます。その一方で、少子高齢化と人手不足がさらに進み、生産性向上と持続可能な労働環境の整備が企業の課題となります。翔設計はオフィスビルの内外装・設備等のリニューアルをはじめ、時代が求める新たな価値をプラスし、各種環境性能評価取得はもちろん、フェーズフリー防災までを網羅した計画をプロデュースします。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 03 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_03"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                03
+              </div>
+              <div class="whitespace-nowrap text-lg font-bold lg:text-2xl">
+                店舗・商業施設
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Stores /<br />
+                  shopping complex</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_03.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              ほっぺたとお財布の紐を緩める魔法。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              ブランドの世界観を具現化する空間づくりから、フレキシビリティを考えた設計、集客力を高める照明デザイン、維持管理コストのサポートまで、店舗や商業施設の建築をトータルにマネジメント。目に見える表面の部分だけでなく、その背後にある意味や本質に迫るアプローチで、建物の価値向上と集客率UPによる収益性向上を実現します。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 04 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_04"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                04
+              </div>
+              <div class="text-lg font-bold lg:text-2xl">
+                工場倉庫
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Factory</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_04.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              「ポチッと」を支える。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              クリック1つで何でも届く時代。それを支える工場や物流倉庫は劇的な進化をしています。まずは安全第一、当然品質もコストも納期も大事。いわゆるSQCD（Safety/Quality/Cost/Delivery）への配慮は、工場や倉庫の計画に欠かせない要素です。翔設計は、さらにその先の物流を含めた、働く人たちがワクワクを感じながら働ける快適な環境を目指します。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 05 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_05"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                05
+              </div>
+              <div class="text-lg font-bold lg:text-2xl">
+                港湾施設
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Port facility</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_05_new.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              海の上にも翔設計。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              海上交通の要となる「海上交通センター」や、航路を照らす「灯台」など、陸だけでなく、海の上の施設も幅広く手掛ける翔設計。災害発生時にも安全に機能することを考慮した防災対策の徹底、地球の未来を意識した周辺の海洋環境への配慮など、これまでに培ってきた知見をフルに活用しながら、これからも海洋国家日本を支える船舶の安全を見守り続けます。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 06 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_06"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                06
+              </div>
+              <div class="text-lg font-bold lg:text-2xl">
+                スポーツ施設
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Sports facility</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_06.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              熱狂を設計する。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              人々の歓声が響き渡るスタジアム。近年、その進化は著しく、ユニバーサルデザインや安全な動線計画、臨場感あふれる客席空間など、熱狂や一体感を後押しする工夫がいたるところに散りばめられています。翔設計は興奮と感動をデザインします。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 07 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_07"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                07
+              </div>
+              <div class="whitespace-nowrap text-lg font-bold lg:text-2xl">
+                教育・保育施設
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Educational / <br />
+                  nursery facilities</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_07.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              未来が詰まった宝箱。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              未来を担うこどもたちの安全を守り、その無限の可能性を広げるための環境を創ります。特に、保育園、児童館、小学校といった教育施設に力を入れ、災害に強い学校づくりや、多様な教育的ニーズへの対応、地域に開かれた空間設計を実現してきました。こどもたちの自由な発想・探求学習を支え、どこまでも自由に想像の翼を広げられる安心で安全な学びの場の提供、さらには木育・食育・心育をサポート。翔設計は、未来を担う彼らの安全を守り、その無限の可能性を広げるために、今日も全力でたくさんの未来と向き合っています。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 08 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_08"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                08
+              </div>
+              <div class="text-lg font-bold lg:text-2xl">
+                消防署
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Fire station</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_08.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              ヒーローに、ホッとできる基地を。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              消防隊、救助隊、救命隊――まちを守るヒーローたちの基地、それが消防署です。耐震等級3という最高レベルの耐震性、業務がスムーズに行える動線設計など、堅牢なイメージが強いかもしれませんが、待機時のヒーローたちがリラックスして過ごせる空間づくりや、ヒーローたちが普段から街で愛されるための街並みと調和したデザインなど、ソフト面の工夫もたくさん施されています。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 09 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_09"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                09
+              </div>
+              <div class="text-lg font-bold lg:text-2xl">
+                交番
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Police box</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_09.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              頼られるだけじゃなく、愛される交番に。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              「SUMO」や「NINJA」と並び、今や国際語となった「KOBAN」。市民との日常的な触れ合いを通じて、まちの安全を守る、この日本生まれの優れたシステムを、私たちは建築の力で後押しします。明るく親しみやすく、誰もが安心して立ち寄れる場所にするためのさまざまな工夫が施されている交番建築。ここから得られる知見や手法は、翔設計が手掛ける他の事業領域でも大変役立っています。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 10 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_10"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                10
+              </div>
+              <div class="text-lg font-bold lg:text-2xl">
+                駅
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Station</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_10.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              誰も乗り遅れないように。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              駅は人々の人生が交わる場所。再会、別れ、そして新たな旅立ち。輝きを得るために向かい、経験をお土産に帰る。そのどれもがかけがえのない瞬間だから、できればつまずいたり転んだりしないように。未来への列車に誰も乗り遅れないように。そんなことを考えながら翔設計はみんなに優しい駅を創ります。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 11 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_11"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                11
+              </div>
+              <div class="text-lg font-bold lg:text-2xl">
+                動物園
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Zoo</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_11.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              動物たちも思わず唸る、ふるさとづくり。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              動物が本来の生息環境と同じようにくつろげる場所、そして飼育員も来園者も笑顔でいられる空間をつくる。それが、私たち翔設計の仕事です。業界内で数少ない動物園コンサルタントとして、何よりも動物のことを最優先にしたアニマルウェルフェアをもとに「本来の生育環境の再現」「来園者の安全」「飼育管理の効率化」など、時には相反する要件もうまくまとめ上げながら、世界基準となる動物園づくりに取り組んでいます。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 12 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_12"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                12
+              </div>
+              <div class="text-lg font-bold lg:text-2xl">
+                キャンプ場
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Campsite</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_12.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              心と薪に火をつける。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              非日常が得られるアウトドアアクティビティ。自然と向き合い心と体で体験する特別な時間、ゆらぐ火を見て過ごす贅沢な時間。非日常と体験を演出し、みんなが思わず行きたくなってしまう魅力的な空間・体験をプロデュースします。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 13 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_13"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                13
+              </div>
+              <div class="text-lg font-bold lg:text-2xl">
+                ホテル
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg"
+                  >Hotel</span
+                >
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_13.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              たまにはホテルもリフレッシュ。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              ホテルは心と体をリフレッシュさせ、次への活力を生み出す場所。そんな特別な体験を提供してくれるホテルをリフレッシュさせましょう。ホテルの外内装から構造・レストラン・ラウンジ・オペレーション・ブランディングまでトータルで対応。より価値のあるホテルへ生まれ変わらせます。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 14 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_14"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                14
+              </div>
+              <div class="whitespace-nowrap text-lg font-bold lg:text-2xl">
+                医療・福祉施設
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg">
+                  Medical / <br />
+                  welfare facilities
+                </span>
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_14_update02.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              支える人にも支えは必要。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              「すべての人に、健康と福祉を」。SDGsの3番目に掲げられたこの目標は、建築総合コンサルタント企業である翔設計にとっても重要な指針の一つです。「こどもも高齢者も健常者も障がい者も、皆が垣根なく共生できる開かれた福祉の実現」「過酷な環境で働くことを余儀なくされている医療・福祉従事者が、安全に心地よく働ける環境づくり」。その一つひとつは小さなステップかもしれませんが、少しでもより良い未来に貢献したいという思いで、これからも医療・福祉の課題と向き合い続けます。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 15 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_15"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                15
+              </div>
+              <div class="whitespace-nowrap text-lg font-bold lg:text-2xl">
+                公園
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg">
+                  Park
+                </span>
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_15.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              なくてはならない名脇役。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              都市と建物をつなぐランドスケープ。普段あまりスポットライトはあたりませんが、実は街の景色を創る上でなくてはならない名脇役。存在感は隠せません。公園や広場は憩いの場であり、こどもたちの楽しい遊び場。さらに地域の防災拠点としても重要な役割を担っています。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 16 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_16"
+      >
+        <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+          <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">16</div>
+          <div class="whitespace-nowrap text-lg font-bold lg:text-2xl">
+            本社ビル
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg">
+              Head office
+            </span>
+          </div>
+        </div>
+        <div class="space-y-7 lg:space-y-[50px]">
+          <div
+            class="-mx-6 flex flex-col items-center justify-center rounded-[30px] border-0 border-solid border-[#ADC4F4] p-6 lg:flex-row lg:border-3"
+          >
+            <div class="flex flex-col items-center justify-center lg:w-[240px]">
+              <div class="mb-[22px] text-base font-bold lg:text-2xl">
+                <span class="lg:hidden">ー</span> 事業領域 <span class="lg:hidden">ー</span>
+              </div>
+              <img
+                class="w-[250px] lg:w-[240px]"
+                loading="lazy"
+                src="./images/city_16_01.png"
+                alt="Image"
+              />
+            </div>
+            <div class="flex-1 pt-7 lg:pl-[60px]">
+              <div
+                class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+              >
+                顧客の心を鷲掴みにする、ソフト×ハードの最強タッグ。
+              </div>
+              <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+              <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+                翔設計は名前の通り設計事務所ですが、実は設計だけでなく、プロジェクトマネジメントが得意な建築総合コンサルタント企業です。<br />
+                建築プロジェクトを成功させるには、ソフト（PM、CM、不動産、税務、収益）とハード（デザイン、設備、構造、施工）両方の力が不可欠です。翔設計では、この2つを組み合わせることでプロジェクト全体を最適化。クライアントの要望を最優先に、リスク管理は鋭く、コストはスマートに、そして設計・施工の質はより高みを目指して。まさに柔と剛を兼ね揃えた最強タッグで、皆様の想いをカタチにしていきます。
+              </div>
+              <div class="mx-auto mt-4 max-w-[260px] lg:hidden">
+                <img class="w-full" src="./images/city_16_01_mb.png" alt="Image" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="-mx-6 flex flex-col items-center justify-center rounded-[30px] border-0 border-solid border-[#ADC4F4] p-6 lg:flex-row lg:border-3"
+          >
+            <div class="flex flex-col items-center justify-center lg:w-[240px]">
+              <div class="mb-[22px] text-base font-bold lg:text-2xl">
+                <span class="lg:hidden">ー</span> 翔設計の歩み <span class="lg:hidden">ー</span>
+              </div>
+              <img
+                class="w-[250px] lg:w-[240px]"
+                loading="lazy"
+                src="./images/city_16_02.png"
+                alt="Image"
+              />
+            </div>
+            <div class="flex-1 pt-7 lg:pl-[60px]">
+              <div
+                class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+              >
+                たかが40年、されど40年。<br />
+                振り返れば、いろんなことがありました。
+              </div>
+              <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+              <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+                ・創業期<br />
+                1985年に構造設計事務所としてひっそりスタート。歴史的建造物の保存・再生に情熱を注ぎ、改修技術を磨きながら、官公庁のプロジェクトなどにも積極的に挑戦。気づけば、意匠・構造・設備、建築全般を手掛ける総合設計事務所へと成長していました。
+                <br /><br />
+                ・成長期<br />
+                社会やクライアントが抱える課題に向き合う中で、設計だけにおさまらない建築総合コンサルタント企業へのシフトを決意。ハードとソフトの両面からクライアントの課題解決をサポートする新しいアプローチを取り入れることで、「最良の選択」を提供できる建築総合コンサルタント企業へと変革してきました。
+                <br /><br />
+                ・拡大期<br />
+                建築・構造・設備・改修、そしてそれらを束ねるプロジェクトマネジメント部門を設置。さらに、グループ内で工事・不動産部門まで網羅する体制へと発展。建物の「誕生」から「老い」、そして「再生」まで、すべてのステージを一気通貫で支える企業としてアップデートを続けています。建物に新たな命を吹き込み、その歴史を未来へと繋ぐ――それが私たち翔設計の使命です。
+              </div>
+            </div>
+          </div>
+          <div
+            class="-mx-6 flex flex-col items-center justify-center rounded-[30px] border-0 border-solid border-[#ADC4F4] p-6 lg:flex-row lg:border-3"
+          >
+            <div class="flex flex-col items-center justify-center lg:w-[240px]">
+              <div class="mb-[22px] text-base font-bold lg:text-2xl">
+                <span class="lg:hidden">ー</span> セミナー <span class="lg:hidden">ー</span>
+              </div>
+              <img
+                class="w-[250px] lg:w-[240px]"
+                loading="lazy"
+                src="./images/city_16_03.png"
+                alt="Image"
+              />
+            </div>
+            <div class="flex-1 pt-7 lg:pl-[60px]">
+              <div
+                class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+              >
+                翔設計の“癖”になるセミナー。
+              </div>
+              <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+              <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+                翔設計では、定期的にセミナーを開催。
+                修繕、防災対応、そしてコミュニティの問題など、分譲・賃貸マンションオーナーが直面する様々な悩みを、経験豊富なプロたちが解決するお役立ちセミナーを開催しています。「ここだけの話」もたくさん聞けて、癖になる人が続出…実は翔設計ファンクラブもあるとか。セミナーでは参加者同士の交流会も開催しており、同じ悩みを持つ方々の交流の場としても人気です。
+                <div class="my-5">▶セミナー情報は、翔設計のメールマガジンでCheck！</div>
+                <a
+                  class="mx-auto flex h-8 w-[270px] items-center justify-center rounded-[30px] border border-solid border-color-5 bg-[#F5F8FF] text-sm font-bold text-color-5 drop-shadow-md transition-all duration-150 hover:border-primary hover:bg-primary hover:text-white lg:mx-0 lg:h-[60px] lg:w-[350px] lg:text-base"
+                  href="https://www.sho-daikibosyuzen.jp/mailmagazine/"
+                  target="_blank"
+                  title="メールマガジン登録はこちらから"
+                >
+                  メールマガジン登録はこちらから
+                  <svg class="ml-2.5" class="Icon" width="14" height="13" viewBox="0 0 14 13">
+                    <use href="#ic_arrow_right" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="-mx-6 flex flex-col items-center justify-center rounded-[30px] border-0 border-solid border-[#ADC4F4] p-6 lg:flex-row lg:border-3"
+          >
+            <div class="flex flex-col items-center justify-center lg:w-[240px]">
+              <div class="mb-[22px] text-base font-bold lg:text-2xl">
+                <span class="lg:hidden">ー</span> 翔設計のこれから
+                <span class="lg:hidden">ー</span>
+              </div>
+              <img
+                class="w-[250px] lg:w-[240px]"
+                loading="lazy"
+                src="./images/city_16_04.png"
+                alt="Image"
+              />
+            </div>
+            <div class="flex-1 pt-7 lg:pl-[60px]">
+              <div
+                class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+              >
+                これ以上、地球に重たい荷物は背負わせない。
+              </div>
+              <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+              <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+                特に力を入れて取り組んでいるのが、建物の長寿命化と防災力の強化。できるだけ環境負荷を避け、建物の長寿命化と収益性向上を目指したリノベーション（再生）やコンバージョン（用途変更）、防災という付加価値で建物に新たな価値を与える。そうして持続可能な建物・街・社会を実現することが、これからの未来に向けて、私たちが果たすべき役割だと考えています。
+                <br /><br />
+                翔設計が考える、新しいオフィスビルのカタチ<br />
+                翔設計の本社オフィスも入居する「未来型次世代オフィスビル」（鈴福ビル：渋谷区千駄ヶ谷）をプロデュース。太陽光発電＆EVインフラを活用した電気の循環システムで非常時の電源が確保されているほか、敷地内に掘られた井戸は、災害時の生活用水としても利用でき、地域や社会に貢献できるつくりになっています。
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 17 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_17"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                17
+              </div>
+              <div class="whitespace-nowrap text-lg font-bold lg:text-2xl">
+                島しょ部
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg">
+                  Island part
+                </span>
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_17.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-base font-bold leading-[1.5] lg:text-left lg:text-[22px]"
+            >
+              海の向こうにも翔設計。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-sm !leading-[200%] tracking-[0] lg:text-base">
+              翔設計は、「小笠原住宅新築プロジェクト」や「母島保育施設プロジェクト」「伊豆諸島新島
+              都教職員住宅」など、東京都の離島を中心に、海の向こうでも活躍の場を広げています。また、2023年にはカンボジアのプノンペンに初の海外支店をオープン。グローバルな視点からも革新を続ける企業として、新たな挑戦を続けています。
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CITY 18 -->
+      <section
+        class="mb-[50px] rounded-[30px] bg-white px-5 py-5 drop-shadow-md lg:px-[75px] lg:py-[50px]"
+        id="city_18"
+      >
+        <div class="flex flex-col items-center lg:flex-row">
+          <div class="lg:w-[240px]">
+            <div class="mb-5 flex items-center justify-center gap-x-5 lg:justify-start">
+              <div class="font-roboto text-[50px] font-medium text-[#ADC4F4] lg:text-[60px]">
+                18
+              </div>
+              <div class="whitespace-nowrap text-lg font-bold lg:text-2xl">
+                ウミガメ
+                <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] lg:text-lg">
+                  Sea ​​turtle
+                </span>
+              </div>
+            </div>
+            <img
+              class="w-[250px] lg:w-[240px]"
+              loading="lazy"
+              src="./images/city_18.webp"
+              alt="Image"
+            />
+          </div>
+          <div class="flex-1 pt-7 lg:pl-[60px]">
+            <div
+              class="mb-5 text-center text-sm leading-[1.5] lg:text-left lg:text-[22px] lg:font-bold"
+            >
+              翔設計は持続可能な社会の実現を目指し、ウミガメの研究とSTELを応援しています。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <a
+              class="mx-auto flex h-8 w-[230px] items-center justify-center rounded-[30px] border border-solid border-color-5 bg-[#F5F8FF] text-sm font-bold text-color-5 drop-shadow-md transition-all duration-150 hover:border-primary hover:bg-primary hover:text-white lg:mx-0 lg:h-[60px] lg:w-[350px] lg:text-base"
+              href="https://www.stel.or.jp/"
+              target="_blank"
+              title="Sea Turtle Ecology Lab へ"
+            >
+              Sea Turtle Ecology Lab へ
+              <svg class="ml-2.5" class="Icon" width="14" height="13" viewBox="0 0 14 13">
+                <use href="#ic_arrow_right" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Placeholder for the icon container -->
+    <div class="hidden" id="icon-placeholder"></div>
+    <!-- Menu Modal -->
+    <div
+      id="extralarge-modal"
+      tabindex="-1"
+      class="fixed left-0 right-0 top-0 z-50 hidden h-[calc(100%-1rem)] max-h-full w-full overflow-y-auto overflow-x-hidden p-4 md:inset-0"
+    >
+      <div class="relative max-h-full w-full max-w-[1215px]">
+        <!-- Modal content -->
+        <div class="relative rounded-lg bg-white px-4 py-6 shadow lg:px-16 lg:py-9">
+          <button
+            type="button"
+            class="absolute -right-2.5 -top-2.5 bg-transparent hover:text-primary"
+            data-modal-hide="extralarge-modal"
+          >
+            <svg
+              width="35"
+              height="35"
+              viewBox="0 0 35 35"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_2484_2281)">
+                <path
+                  d="M17.5 35C27.165 35 35 27.165 35 17.5C35 7.83502 27.165 0 17.5 0C7.83502 0 0 7.83502 0 17.5C0 27.165 7.83502 35 17.5 35Z"
+                  fill="#2F3B53"
+                />
+                <path
+                  d="M10.1113 25.6668L25.5045 10.2803"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-miterlimit="10"
+                />
+                <path
+                  d="M25.6671 25.4978L10.2739 10.1113"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-miterlimit="10"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_2484_2281">
+                  <rect width="35" height="35" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+          <div class="">
+            <div class="grid grid-cols-1 grid-rows-1 gap-x-10 md:grid-cols-2 lg:grid-rows-8">
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-01"
+                data-drawer-show="drawer-01"
+                aria-controls="drawer-01"
+                title="マンションにも「熟年」の味わい。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="30" height="30" viewBox="0 0 55 56">
+                    <use href="#ic_city_01" />
+                  </svg>
+                </span>
+
+                <span class="flex-1 text-sm font-bold">マンションにも「熟年」の味わい。</span>
+              </a>
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-02"
+                data-drawer-show="drawer-02"
+                aria-controls="drawer-02"
+                title="地球にも人にもオアシスが必要。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="27" height="25" viewBox="0 0 55 56">
+                    <use href="#ic_city_02" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold"> 地球にも人にもオアシスが必要。</span>
+              </a>
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-03"
+                data-drawer-show="drawer-03"
+                aria-controls="drawer-03"
+                title="ほっぺたとお財布の紐を緩める魔法。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="26" height="24" viewBox="0 0 55 56">
+                    <use href="#ic_city_03" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">ほっぺたとお財布の紐を緩める魔法。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-04"
+                data-drawer-show="drawer-04"
+                aria-controls="drawer-04"
+                title="「ポチッと」を支える。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="27" height="27" viewBox="0 0 55 56">
+                    <use href="#ic_city_04" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">「ポチッと」を支える。</span>
+              </a>
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-05"
+                data-drawer-show="drawer-05"
+                aria-controls="drawer-05"
+                title="海の上にも翔設計。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="32" height="25" viewBox="0 0 65 52">
+                    <use href="#ic_city_05" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">海の上にも翔設計。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-06"
+                data-drawer-show="drawer-06"
+                aria-controls="drawer-06"
+                title="熱狂を設計する。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="28" height="17" viewBox="0 0 60 38">
+                    <use href="#ic_city_06" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">熱狂を設計する。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-07"
+                data-drawer-show="drawer-07"
+                aria-controls="drawer-07"
+                title="未来が詰まった宝箱。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="30" height="28" viewBox="0 0 55 52">
+                    <use href="#ic_city_07" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">未来が詰まった宝箱。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-08"
+                data-drawer-show="drawer-08"
+                aria-controls="drawer-08"
+                title="ヒーローに、快適な基地を。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="28" height="22" viewBox="0 0 55 43">
+                    <use href="#ic_city_08" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">ヒーローに、ホッとできる基地を。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-09"
+                data-drawer-show="drawer-09"
+                aria-controls="drawer-09"
+                title="頼られるだけじゃなく、愛される交番に。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="30" height="22" viewBox="0 0 55 41">
+                    <use href="#ic_city_09" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">頼られるだけじゃなく、愛される交番に。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-10"
+                data-drawer-show="drawer-10"
+                aria-controls="drawer-10"
+                title="誰も乗り遅れないように。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="30" height="21" viewBox="0 0 60 42">
+                    <use href="#ic_city_10" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">誰も乗り遅れないように。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-11"
+                data-drawer-show="drawer-11"
+                aria-controls="drawer-11"
+                title="動物たちも思わず唸る、ふるさとづくり。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="30" height="25" viewBox="0 0 55 46">
+                    <use href="#ic_city_11" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">動物たちも思わず唸る、ふるさとづくり。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-12"
+                data-drawer-show="drawer-12"
+                aria-controls="drawer-12"
+                title="心と薪に火をつける。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="30" height="21" viewBox="0 0 55 40">
+                    <use href="#ic_city_12" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">心と薪に火をつける。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-13"
+                data-drawer-show="drawer-13"
+                aria-controls="drawer-13"
+                title="たまにはホテルもリフレッシュ。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="27" height="27" viewBox="0 0 55 56">
+                    <use href="#ic_city_13" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">たまにはホテルもリフレッシュ。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-14"
+                data-drawer-show="drawer-14"
+                aria-controls="drawer-14"
+                title="支える人にも支えは必要。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="27" height="22" viewBox="0 0 60 50">
+                    <use href="#ic_city_14" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">支える人にも支えは必要。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-15"
+                data-drawer-show="drawer-15"
+                aria-controls="drawer-15"
+                title="なくてはならない名脇役。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="30" height="28" viewBox="0 0 55 53">
+                    <use href="#ic_city_15" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">なくてはならない名脇役。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                type="button"
+                data-drawer-target="drawer-17"
+                data-drawer-show="drawer-17"
+                aria-controls="drawer-17"
+                title="海の向こうにも翔設計。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="29" height="25" viewBox="0 0 35 35">
+                    <use href="#ic_city_16" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">海の向こうにも翔設計。</span>
+              </a>
+
+              <a
+                class="flex cursor-pointer items-center space-x-4 border-b border-solid border-[#ADC4F4] px-2.5 py-4 lg:px-4 lg:py-3"
+                id="turtle-href"
+                href="https://www.stel.or.jp/"
+                target="_blank"
+                title="翔設計は持続可能な社会の実現を目指し、ウミガメの研究とSTELを応援しています。"
+              >
+                <span
+                  class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                >
+                  <svg class="Icon h-auto w-full" width="29" height="27" viewBox="0 0 35 35">
+                    <use href="#ic_city_19" />
+                  </svg>
+                </span>
+                <span class="flex-1 text-sm font-bold">
+                  翔設計は持続可能な社会の実現を目指し、ウミガメの研究とSTELを応援しています。
+                </span>
+              </a>
+            </div>
+            <div
+              class="mb-5 grid grid-cols-1 gap-x-10 space-y-4 border-b border-solid border-[#ADC4F4] py-4 md:grid-cols-2 md:space-y-0 lg:mb-7 lg:py-0"
+            >
+              <div class="px-2.5 py-0 lg:px-4 lg:py-3">
+                <a
+                  class="mb-3 flex cursor-pointer items-center space-x-4"
+                  type="button"
+                  data-drawer-target="drawer-16-01"
+                  data-drawer-show="drawer-16-01"
+                  aria-controls="drawer-16-01"
+                  title="顧客の心を鷲掴みにする、ソフト×ハードの最強タッグ。"
+                >
+                  <span
+                    class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                  >
+                    <svg
+                      class="Icon h-auto w-full translate-y-0.5"
+                      width="32"
+                      height="27"
+                      viewBox="0 0 35 35"
+                    >
+                      <use href="#ic_18_02" />
+                    </svg>
+                  </span>
+                  <span class="flex-1 text-[13px] font-bold"
+                    >顧客の心を鷲掴みにする、ソフト×ハードの最強タッグ。
+                  </span>
+                </a>
+                <a
+                  class="flex cursor-pointer items-center space-x-4"
+                  type="button"
+                  data-drawer-target="drawer-16-02"
+                  data-drawer-show="drawer-16-02"
+                  aria-controls="drawer-16-02"
+                  title="たかが40年、されど40年。振り返れば、いろんなことがありました。"
+                >
+                  <span
+                    class="h-[30px] w-[30px] min-w-[20px] lg:h-[35px] lg:w-[35px] lg:min-w-[35px]"
+                  ></span>
+                  <span class="flex-1 text-sm font-bold">
+                    たかが40年、されど40年。振り返れば、いろんなことがありました。
+                  </span>
+                </a>
+              </div>
+              <div class="px-2.5 py-0 lg:px-4 lg:py-3">
+                <a
+                  class="mb-3 flex cursor-pointer items-center space-x-4"
+                  type="button"
+                  data-drawer-target="drawer-16-03"
+                  data-drawer-show="drawer-16-03"
+                  aria-controls="drawer-16-03"
+                  title="翔設計の“癖”になるセミナー。"
+                >
+                  <span
+                    class="h-[30px] w-[30px] min-w-[20px] lg:h-[35px] lg:w-[35px] lg:min-w-[35px]"
+                  ></span>
+                  <span class="flex-1 text-sm font-bold"> 翔設計の“癖”になるセミナー。</span>
+                </a>
+                <a
+                  class="flex cursor-pointer items-center space-x-4"
+                  type="button"
+                  data-drawer-target="drawer-16-04"
+                  data-drawer-show="drawer-16-04"
+                  aria-controls="drawer-16-04"
+                  title="これ以上、地球に重たい荷物は背負わせない。"
+                >
+                  <span
+                    class="flex h-[30px] w-[30px] items-center justify-center lg:h-[35px] lg:w-[35px]"
+                  ></span>
+                  <span class="flex-1 text-sm font-bold">
+                    これ以上、地球に重たい荷物は背負わせない。</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center justify-center space-y-5 lg:flex-row lg:space-x-14 lg:space-y-0"
+            >
+              <a
+                class="head-office-href flex h-9 w-[200px] items-center justify-center rounded-3xl border border-solid border-color-5 bg-[#F5F8FF] text-sm font-bold text-color-5 drop-shadow-md transition-all duration-150 hover:border-primary hover:bg-primary hover:text-white lg:h-[50px] lg:w-[220px]"
+                href="./head-office.html"
+                title="本社ビルの中に入る"
+                >本社ビルの中に入る</a
+              >
+              <a
+                id="building-list-href"
+                class="flex h-9 w-[200px] items-center justify-center rounded-3xl border border-solid border-color-5 bg-[#F5F8FF] text-sm font-bold text-color-5 drop-shadow-md transition-all duration-150 hover:border-primary hover:bg-primary hover:text-white lg:h-[50px] lg:w-[220px]"
+                href="./buildings.html"
+                title="SHO CITY建物一覧"
+                >SHO CITY建物一覧</a
+              >
+              <a
+                class="flex items-center space-x-2.5 font-heading"
+                href="https://www.sho-sekkei.co.jp/"
+                target="_blank"
+                title="翔設計コーポレートサイトへ"
+              >
+                <span class="text-[13px] font-semibold">翔設計コーポレートサイトへ</span>
+                <svg class="Icon" width="14" height="13" viewBox="0 0 14 13">
+                  <use href="#ic_arrow_right" />
+                </svg>
+              </a>
+              <a
+                class="flex items-center space-x-2.5 font-heading"
+                href="https://www.sho-daikibosyuzen.jp/?utm_source=referer&utm_medium=corp&utm_campaign=hd-banner"
+                title="翔設計サービスサイトへ"
+                target="_blank"
+              >
+                <span class="text-[13px] font-semibold">翔設計サービスサイトへ</span>
+                <svg class="Icon" width="14" height="13" viewBox="0 0 14 13">
+                  <use href="#ic_arrow_right" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Menu Modal end-->
+    <!-- drawer component -->
+    <!-- drawer 01 -->
+    <div
+      id="drawer-01"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-01"
+            aria-controls="drawer-01"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">01</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            マンション
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Condominium</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_01_0804.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              マンションにも「熟年」の味わい。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              マンションに迫る老い。しかし建替えは難しいのが現実です。そんな中、私たち翔設計が目指しているのは、次世代にもしっかりと住み継いでいける、マンションの長寿命化。人と同じように、マンションにも「熟年」の味わいがあります。専門家が手をかけ「適切な方法」で「適切な管理」を行うことで味わいと価値を高めるヴィンテージワインのように、翔設計では高経年マンションの長寿命化と資産価値向上のための最適解を専門家としてご提案します。新築のマンションにはない熟年の味わいを感じられるヴィンテージマンションへの熟成をお手伝いします。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 02 -->
+    <div
+      id="drawer-02"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-02"
+            aria-controls="drawer-02"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div class="mb-8 flex flex-col items-center gap-x-5 lg:mb-0 lg:flex-row lg:px-[76px]">
+          <div class="mb-5 flex flex-row gap-x-5 lg:w-[200px] lg:flex-col">
+            <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">02</div>
+            <div class="text-lg font-bold sm:text-[27px]">
+              オフィスビル
+              <span
+                class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+                >Office buildings</span
+              >
+            </div>
+          </div>
+          <div class="flex-1">
+            <img
+              class="mx-auto max-h-[200px] lg:max-h-[330px]"
+              src="./images/building_02.webp"
+              alt="Image"
+            />
+          </div>
+        </div>
+        <div class="px-8 lg:px-[75px]">
+          <div
+            class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+          >
+            地球にも人にもオアシスが必要。
+          </div>
+          <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+          <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+            温暖化が地球規模の問題となっている現代、オフィスビルの環境性能向上は、今や必須条件と言えます。その一方で、少子高齢化と人手不足がさらに進み、生産性向上と持続可能な労働環境の整備が企業の課題となります。翔設計はオフィスビルの内外装・設備等のリニューアルをはじめ、時代が求める新たな価値をプラスし、各種環境性能評価取得はもちろん、フェーズフリー防災までを網羅した計画をプロデュースします。
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 03 -->
+    <div
+      id="drawer-03"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-03"
+            aria-controls="drawer-03"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">03</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            店舗・商業施設
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Stores/shopping complex</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_03.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              ほっぺたとお財布の紐を緩める魔法。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              ブランドの世界観を具現化する空間づくりから、フレキシビリティを考えた設計、集客力を高める照明デザイン、維持管理コストのサポートまで、店舗や商業施設の建築をトータルにマネジメント。目に見える表面の部分だけでなく、その背後にある意味や本質に迫るアプローチで、建物の価値向上と集客率UPによる収益性向上を実現します。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 04 -->
+    <div
+      id="drawer-04"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-04"
+            aria-controls="drawer-04"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">04</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            工場倉庫
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Factory</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_04.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              「ポチッと」を支える。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              クリック1つで何でも届く時代。それを支える工場や物流倉庫は劇的な進化をしています。まずは安全第一、当然品質もコストも納期も大事。いわゆるSQCD（Safety/Quality/Cost/Delivery）への配慮は、工場や倉庫の計画に欠かせない要素です。翔設計は、さらにその先の物流を含めた、働く人たちがワクワクを感じながら働ける快適な環境を目指します。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 05 -->
+    <div
+      id="drawer-05"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-05"
+            aria-controls="drawer-05"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">05</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            港湾施設
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Port facility</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_05_new.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              海の上にも翔設計。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              海上交通の要となる「海上交通センター」や、航路を照らす「灯台」など、陸だけでなく、海の上の施設も幅広く手掛ける翔設計。災害発生時にも安全に機能することを考慮した防災対策の徹底、地球の未来を意識した周辺の海洋環境への配慮など、これまでに培ってきた知見をフルに活用しながら、これからも海洋国家日本を支える船舶の安全を見守り続けます。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 06 -->
+    <div
+      id="drawer-06"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-06"
+            aria-controls="drawer-06"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div class="mb-8 flex flex-col items-center gap-x-5 lg:mb-0 lg:flex-row lg:px-[76px]">
+          <div class="mb-5 flex flex-row gap-x-5 lg:w-[200px] lg:flex-col">
+            <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">06</div>
+            <div class="text-lg font-bold sm:text-[27px]">
+              スポーツ施設
+              <span
+                class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+                >Sports facility</span
+              >
+            </div>
+          </div>
+          <div class="flex-1">
+            <img
+              class="mx-auto max-h-[160px] lg:max-h-[330px]"
+              src="./images/building_06.webp"
+              alt="Image"
+            />
+          </div>
+        </div>
+        <div class="px-8 lg:px-[75px]">
+          <div
+            class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+          >
+            熱狂を設計する。
+          </div>
+          <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+          <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+            人々の歓声が響き渡るスタジアム。近年、その進化は著しく、ユニバーサルデザインや安全な動線計画、臨場感あふれる客席空間など、熱狂や一体感を後押しする工夫がいたるところに散りばめられています。翔設計は興奮と感動をデザインします。
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 07 -->
+    <div
+      id="drawer-07"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-07"
+            aria-controls="drawer-07"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div class="mb-8 flex flex-col items-center gap-x-5 lg:mb-0 lg:flex-row lg:px-[76px]">
+          <div class="mb-5 flex flex-row gap-x-5 lg:w-[200px] lg:flex-col">
+            <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">07</div>
+            <div class="text-lg font-bold sm:text-[27px]">
+              教育・保育施設
+              <span
+                class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+                >Educational/ <br />nursery facilities</span
+              >
+            </div>
+          </div>
+          <div class="flex-1">
+            <img
+              class="mx-auto max-h-[160px] lg:max-h-[330px]"
+              src="./images/building_07.webp"
+              alt="Image"
+            />
+          </div>
+        </div>
+        <div class="px-8 lg:px-[75px]">
+          <div
+            class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+          >
+            未来が詰まった宝箱。
+          </div>
+          <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+          <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+            未来を担うこどもたちの安全を守り、その無限の可能性を広げるための環境を創ります。特に、保育園、児童館、小学校といった教育施設に力を入れ、災害に強い学校づくりや、多様な教育的ニーズへの対応、地域に開かれた空間設計を実現してきました。こどもたちの自由な発想・探求学習を支え、どこまでも自由に想像の翼を広げられる安心で安全な学びの場の提供、さらには木育・食育・心育をサポート。翔設計は、未来を担う彼らの安全を守り、その無限の可能性を広げるために、今日も全力でたくさんの未来と向き合っています。
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 08 -->
+    <div
+      id="drawer-08"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-08"
+            aria-controls="drawer-08"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">08</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            消防署
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Fire station</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_08.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              ヒーローに、ホッとできる基地を。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              消防隊、救助隊、救命隊――まちを守るヒーローたちの基地、それが消防署です。耐震等級3という最高レベルの耐震性、業務がスムーズに行える動線設計など、堅牢なイメージが強いかもしれませんが、待機時のヒーローたちがリラックスして過ごせる空間づくりや、ヒーローたちが普段から街で愛されるための街並みと調和したデザインなど、ソフト面の工夫もたくさん施されています。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 09 -->
+    <div
+      id="drawer-09"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-09"
+            aria-controls="drawer-09"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">09</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            交番
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Police box</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_09.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              頼られるだけじゃなく、愛される交番に。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              「SUMO」や「NINJA」と並び、今や国際語となった「KOBAN」。市民との日常的な触れ合いを通じて、まちの安全を守る、この日本生まれの優れたシステムを、私たちは建築の力で後押しします。明るく親しみやすく、誰もが安心して立ち寄れる場所にするためのさまざまな工夫が施されている交番建築。ここから得られる知見や手法は、翔設計が手掛ける他の事業領域でも大変役立っています。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 10 -->
+    <div
+      id="drawer-10"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-10"
+            aria-controls="drawer-10"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div class="mb-8 flex flex-col items-center gap-x-5 lg:mb-0 lg:flex-row lg:px-[76px]">
+          <div class="mb-5 flex flex-row gap-x-5 lg:w-[200px] lg:flex-col">
+            <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">10</div>
+            <div class="text-lg font-bold sm:text-[27px]">
+              駅
+              <span
+                class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+                >Station</span
+              >
+            </div>
+          </div>
+          <div class="flex-1">
+            <img
+              class="mx-auto max-h-[160px] lg:max-h-[330px]"
+              src="./images/building_10.webp"
+              alt="Image"
+            />
+          </div>
+        </div>
+        <div class="px-8 lg:px-[75px]">
+          <div
+            class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+          >
+            誰も乗り遅れないように。
+          </div>
+          <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+          <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+            駅は人々の人生が交わる場所。再会、別れ、そして新たな旅立ち。輝きを得るために向かい、経験をお土産に帰る。そのどれもがかけがえのない瞬間だから、できればつまずいたり転んだりしないように。未来への列車に誰も乗り遅れないように。そんなことを考えながら翔設計はみんなに優しい駅を創ります。
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 11 -->
+    <div
+      id="drawer-11"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-11"
+            aria-controls="drawer-11"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div class="mb-8 flex flex-col items-center gap-x-5 lg:mb-0 lg:flex-row lg:px-[76px]">
+          <div class="mb-5 flex flex-row gap-x-5 lg:w-[200px] lg:flex-col">
+            <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">11</div>
+            <div class="text-lg font-bold sm:text-[27px]">
+              動物園
+              <span
+                class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+                >Zoo</span
+              >
+            </div>
+          </div>
+          <div class="flex-1">
+            <img
+              class="mx-auto max-h-[160px] lg:max-h-[330px]"
+              src="./images/building_11.webp"
+              alt="Image"
+            />
+          </div>
+        </div>
+        <div class="px-8 lg:px-[75px]">
+          <div
+            class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+          >
+            動物たちも思わず唸る、ふるさとづくり。
+          </div>
+          <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+          <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+            動物が本来の生息環境と同じようにくつろげる場所、そして飼育員も来園者も笑顔でいられる空間をつくる。それが、私たち翔設計の仕事です。業界内で数少ない動物園コンサルタントとして、何よりも動物のことを最優先にしたアニマルウェルフェアをもとに「本来の生育環境の再現」「来園者の安全」「飼育管理の効率化」など、時には相反する要件もうまくまとめ上げながら、世界基準となる動物園づくりに取り組んでいます。
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 12 -->
+    <div
+      id="drawer-12"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-12"
+            aria-controls="drawer-12"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div class="mb-8 flex flex-col items-center gap-x-5 lg:mb-0 lg:flex-row lg:px-[76px]">
+          <div class="mb-5 flex flex-row gap-x-5 lg:w-[200px] lg:flex-col">
+            <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">12</div>
+            <div class="text-lg font-bold sm:text-[27px]">
+              キャンプ場
+              <span
+                class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+                >Campsite</span
+              >
+            </div>
+          </div>
+          <div class="flex-1">
+            <img
+              class="mx-auto max-h-[160px] lg:max-h-[330px]"
+              src="./images/building_12.webp"
+              alt="Image"
+            />
+          </div>
+        </div>
+        <div class="px-8 lg:px-[75px]">
+          <div
+            class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+          >
+            心と薪に火をつける。
+          </div>
+          <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+          <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+            非日常が得られるアウトドアアクティビティ。自然と向き合い心と体で体験する特別な時間、ゆらぐ火を見て過ごす贅沢な時間。非日常と体験を演出し、みんなが思わず行きたくなってしまう魅力的な空間・体験をプロデュースします。
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 13 -->
+    <div
+      id="drawer-13"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-13"
+            aria-controls="drawer-13"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">13</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            ホテル
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Hotel</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_13.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              たまにはホテルもリフレッシュ。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              ホテルは心と体をリフレッシュさせ、次への活力を生み出す場所。そんな特別な体験を提供してくれるホテルをリフレッシュさせましょう。ホテルの外内装から構造・レストラン・ラウンジ・オペレーション・ブランディングまでトータルで対応。より価値のあるホテルへ生まれ変わらせます。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 14 -->
+    <div
+      id="drawer-14"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-14"
+            aria-controls="drawer-14"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">14</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            医療・福祉施設
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Medical/welfare facilities</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_14_update02.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              支える人にも支えは必要。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              「すべての人に、健康と福祉を」。SDGsの3番目に掲げられたこの目標は、建築総合コンサルタント企業である翔設計にとっても重要な指針の一つです。「こどもも高齢者も健常者も障がい者も、皆が垣根なく共生できる開かれた福祉の実現」「過酷な環境で働くことを余儀なくされている医療・福祉従事者が、安全に心地よく働ける環境づくり」。その一つひとつは小さなステップかもしれませんが、少しでもより良い未来に貢献したいという思いで、これからも医療・福祉の課題と向き合い続けます。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 15 -->
+    <div
+      id="drawer-15"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-15"
+            aria-controls="drawer-15"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">15</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            公園
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Park</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_15.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              なくてはならない名脇役。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              都市と建物をつなぐランドスケープ。普段あまりスポットライトはあたりませんが、実は街の景色を創る上でなくてはならない名脇役。存在感は隠せません。公園や広場は憩いの場であり、こどもたちの楽しい遊び場。さらに地域の防災拠点としても重要な役割を担っています。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 16-01 -->
+    <div
+      id="drawer-16-01"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-16-01"
+            aria-controls="drawer-16-01"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">16</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            本社ビル
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Head office</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_16_01.webp" alt="Image" />
+          </div>
+          <div class="px-4 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              事業領域
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div
+              class="mb-5 text-center text-[15px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              顧客の心を鷲掴みにする、ソフト×ハードの最強タッグ。
+            </div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              翔設計は名前の通り設計事務所ですが、実は設計だけでなく、プロジェクトマネジメントが得意な建築総合コンサルタント企業です。<br />
+              建築プロジェクトを成功させるには、ソフト（PM、CM、不動産、税務、収益）とハード（デザイン、設備、構造、施工）両方の力が不可欠です。翔設計では、この2つを組み合わせることでプロジェクト全体を最適化。クライアントの要望を最優先に、リスク管理は鋭く、コストはスマートに、そして設計・施工の質はより高みを目指して。まさに柔と剛を兼ね揃えた最強タッグで、皆様の想いをカタチにしていきます。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 16-02 -->
+    <div
+      id="drawer-16-02"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-16-02"
+            aria-controls="drawer-16-02"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">16</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            本社ビル
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Head office</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_16_02.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              翔設計の歩み
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              たかが40年、されど40年。<br />
+              振り返れば、いろんなことがありました。
+            </div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              ・創業期<br />
+              1985年に構造設計事務所としてひっそりスタート。歴史的建造物の保存・再生に情熱を注ぎ、改修技術を磨きながら、官公庁のプロジェクトなどにも積極的に挑戦。気づけば、意匠・構造・設備、建築全般を手掛ける総合設計事務所へと成長していました。<br /><br />
+              ・成長期<br />
+              社会やクライアントが抱える課題に向き合う中で、設計だけにおさまらない建築総合コンサルタント企業へのシフトを決意。ハードとソフトの両面からクライアントの課題解決をサポートする新しいアプローチを取り入れることで、「最良の選択」を提供できる建築総合コンサルタント企業へと変革してきました。<br /><br />
+              ・拡大期<br />
+              建築・構造・設備・改修、そしてそれらを束ねるプロジェクトマネジメント部門を設置。さらに、グループ内で工事・不動産部門まで網羅する体制へと発展。建物の「誕生」から「老い」、そして「再生」まで、すべてのステージを一気通貫で支える企業としてアップデートを続けています。建物に新たな命を吹き込み、その歴史を未来へと繋ぐ――それが私たち翔設計の使命です。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 16-03 -->
+    <div
+      id="drawer-16-03"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-16-03"
+            aria-controls="drawer-16-03"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">16</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            本社ビル
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Head office</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_16_03.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              セミナー
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              翔設計の“癖”になるセミナー。
+            </div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              翔設計では、定期的にセミナーを開催。
+              修繕、防災対応、そしてコミュニティの問題など、分譲・賃貸マンションオーナーが直面する様々な悩みを、経験豊富なプロたちが解決するお役立ちセミナーを開催しています。「ここだけの話」もたくさん聞けて、癖になる人が続出…実は翔設計ファンクラブもあるとか。セミナーでは参加者同士の交流会も開催しており、同じ悩みを持つ方々の交流の場としても人気です。
+              <div class="my-3">▶セミナー情報は、翔設計のメールマガジンでCheck！</div>
+              <a
+                class="mx-auto flex h-8 w-[250px] items-center justify-center rounded-[30px] border border-solid border-color-5 bg-[#F5F8FF] text-[13px] font-bold text-color-5 drop-shadow-md transition-all duration-150 hover:border-primary hover:bg-primary hover:text-white md:w-[270px] lg:mx-0 lg:h-[60px] lg:w-[350px] lg:text-[16px]"
+                href="https://www.sho-daikibosyuzen.jp/mailmagazine/"
+                target="_blank"
+                title="メールマガジン登録はこちらから"
+              >
+                メールマガジン登録はこちらから
+                <svg class="ml-2.5" class="Icon" width="14" height="13" viewBox="0 0 14 13">
+                  <use href="#ic_arrow_right" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 16-04 -->
+    <div
+      id="drawer-16-04"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-16-04"
+            aria-controls="drawer-16-04"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div class="mb-8 flex flex-col items-center gap-x-5 lg:mb-0 lg:flex-row lg:px-[76px]">
+          <div class="mb-5 flex flex-row gap-x-5 lg:w-[225px] lg:flex-col">
+            <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">16</div>
+            <div class="text-lg font-bold sm:text-[27px]">
+              本社ビル
+              <span
+                class="mb-10 mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+                >Head office</span
+              >
+              翔設計のこれから
+            </div>
+          </div>
+          <div class="flex-1">
+            <img
+              class="mx-auto max-h-[160px] lg:max-h-[330px]"
+              src="./images/building_16_04_new.webp"
+              alt="Image"
+            />
+          </div>
+        </div>
+        <div class="px-8 lg:px-[75px]">
+          <div
+            class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+          >
+            これ以上、地球に重たい荷物は背負わせない。
+          </div>
+          <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+          <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+            特に力を入れて取り組んでいるのが、建物の長寿命化と防災力の強化。できるだけ環境負荷を避け、建物の長寿命化と収益性向上を目指したリノベーション（再生）やコンバージョン（用途変更）、防災という付加価値で建物に新たな価値を与える。そうして持続可能な建物・街・社会を実現することが、これからの未来に向けて、私たちが果たすべき役割だと考えています。<br /><br />
+            <b>翔設計が考える、新しいオフィスビルのカタチ</b><br />
+            翔設計の本社オフィスも入居する「未来型次世代オフィスビル」（鈴福ビル：渋谷区千駄ヶ谷）をプロデュース。太陽光発電＆EVインフラを活用した電気の循環システムで非常時の電源が確保されているほか、敷地内に掘られた井戸は、災害時の生活用水としても利用でき、地域や社会に貢献できるつくりになっています。
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer 17 -->
+    <div
+      id="drawer-17"
+      class="fixed left-0 top-0 z-[55] h-[calc(100%-1rem)] max-h-full -translate-x-full overflow-y-auto p-4 transition-transform lg:h-full lg:p-0"
+      tabindex="-1"
+      aria-labelledby="drawer-label"
+    >
+      <div
+        class="relative min-h-full w-full rounded-3xl bg-white p-4 lg:rounded-r-3xl lg:px-11 xl:w-[1100px]"
+      >
+        <div class="mb-5 flex items-center justify-between lg:mb-0">
+          <img class="max-w-[40px] lg:max-w-[70px]" src="./images/logo_sho_sekkei.svg" alt="logo" />
+          <button
+            type="button"
+            data-drawer-hide="drawer-17"
+            aria-controls="drawer-17"
+            class="flex hover:text-primary"
+          >
+            <svg class="Icon h-[25px] w-[25px] lg:h-[35px] lg:w-[35px]" viewBox="0 0 35 35">
+              <use href="#ic_close" />
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+        </div>
+        <div
+          class="mb-5 flex items-center justify-center gap-x-5 px-8 lg:mb-0 lg:justify-start lg:px-24"
+        >
+          <div class="font-roboto text-[45px] font-medium text-[#ADC4F4] sm:text-[70px]">17</div>
+          <div class="text-lg font-bold sm:text-[27px]">
+            島しょ部
+            <span class="mt-[5px] block font-roboto text-sm text-[#ADC4F4] sm:text-[20px] lg:mt-2.5"
+              >Island part</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-x-[50px] lg:flex-row">
+          <div class="w-[200px] lg:w-[300px]">
+            <img class="w-full" src="./images/building_17.webp" alt="Image" />
+          </div>
+          <div class="px-8 lg:w-[500px] lg:px-0">
+            <div
+              class="mb-5 text-center text-[16px] font-bold leading-[1.5] sm:text-[24px] lg:text-left"
+            >
+              海の向こうにも翔設計。
+            </div>
+            <div class="mx-auto mb-5 h-[5px] w-[60px] bg-[#ADC4F4] lg:mx-0"></div>
+            <div class="text-justify text-sm leading-[200%] tracking-[0] sm:text-[16px]">
+              翔設計は、「小笠原住宅新築プロジェクト」や「母島保育施設プロジェクト」「伊豆諸島新島
+              都教職員住宅」など、東京都の離島を中心に、海の向こうでも活躍の場を広げています。また、2023年にはカンボジアのプノンペンに初の海外支店をオープン。グローバルな視点からも革新を続ける企業として、新たな挑戦を続けています。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- drawer component end -->
+    <!-- Scroll to top Button -->
+    <div class="fixed bottom-10 right-10 z-10">
+      <a
+        class="scroll-to-top Icon h-[50px] w-[50px] text-color-5 lg:h-[92px] lg:w-[92px]"
+        href="#"
+        title="TOPへ戻る"
+      >
+        <svg
+          class="w-full"
+          width="92"
+          height="92"
+          viewBox="0 0 92 92"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g filter="url(#filter0_d_2859_2255)">
+            <g clip-path="url(#clip0_2859_2255)">
+              <rect x="4" y="4" width="84" height="84" rx="10" fill="white" />
+              <path
+                d="M22.9914 72.656C22.9914 73.076 23.3394 73.424 23.7594 73.424C24.1794 73.424 24.5154 73.076 24.5154 72.656C24.5154 72.236 24.1794 71.9 23.7594 71.9C23.3394 71.9 22.9914 72.236 22.9914 72.656ZM22.1994 72.656C22.1994 71.792 22.8954 71.096 23.7594 71.096C24.6234 71.096 25.3194 71.792 25.3194 72.656C25.3194 73.52 24.6234 74.216 23.7594 74.216C22.8954 74.216 22.1994 73.52 22.1994 72.656ZM14.7474 76.592C15.0954 76.292 15.3594 76.04 15.7314 75.668C16.2714 75.128 17.2074 73.952 18.0354 72.968C18.7554 72.116 19.4634 71.984 20.3874 72.86C21.2034 73.628 22.1154 74.576 22.8354 75.356C23.6394 76.22 24.8754 77.54 25.7994 78.524L24.4674 79.952C23.6634 78.956 22.6554 77.708 21.9474 76.88C21.2394 76.052 20.1834 74.888 19.7514 74.444C19.3554 74.06 19.1034 74.084 18.7674 74.516C18.2874 75.128 17.4474 76.304 16.9554 76.964C16.6794 77.336 16.4034 77.768 16.1874 78.08L14.7474 76.592ZM28.0194 74.444C28.4634 74.48 29.3274 74.528 29.9514 74.528C31.3674 74.528 35.3274 74.528 36.3954 74.528C36.9594 74.528 37.4874 74.468 37.8114 74.444V76.34C37.5234 76.328 36.9114 76.268 36.4074 76.268C35.3154 76.268 31.3674 76.268 29.9514 76.268C29.2794 76.268 28.4754 76.304 28.0194 76.34V74.444ZM48.041 70.796C48.377 71.3 48.869 72.092 49.133 72.644L48.101 73.1C47.741 72.344 47.477 71.828 47.033 71.204L48.041 70.796ZM49.697 70.208C50.069 70.688 50.537 71.48 50.825 72.008L49.793 72.464C49.409 71.708 49.121 71.24 48.677 70.64L49.697 70.208ZM42.833 70.556C43.625 70.988 44.945 71.84 45.569 72.272L44.669 73.604C44.009 73.136 42.749 72.32 41.957 71.876L42.833 70.556ZM40.613 79.076C41.945 78.848 43.385 78.452 44.693 77.732C46.733 76.592 48.401 74.948 49.361 73.232L50.285 74.864C49.169 76.52 47.477 78.044 45.509 79.172C44.297 79.868 42.569 80.468 41.513 80.66L40.613 79.076ZM40.985 73.292C41.789 73.724 43.109 74.552 43.721 74.984L42.845 76.328C42.161 75.86 40.925 75.044 40.109 74.624L40.985 73.292ZM52.268 72.9858V71.2727H59.6445V72.9858H56.9982V80H54.9186V72.9858H52.268ZM68.3934 75.6364C68.3934 76.5966 68.2088 77.4105 67.8395 78.0781C67.4701 78.7457 66.9701 79.2528 66.3395 79.5994C65.7116 79.946 65.0071 80.1193 64.2258 80.1193C63.4417 80.1193 62.7358 79.9446 62.1079 79.5952C61.4801 79.2457 60.9815 78.7386 60.6122 78.0739C60.2457 77.4062 60.0625 76.5937 60.0625 75.6364C60.0625 74.6761 60.2457 73.8622 60.6122 73.1946C60.9815 72.527 61.4801 72.0199 62.1079 71.6733C62.7358 71.3267 63.4417 71.1534 64.2258 71.1534C65.0071 71.1534 65.7116 71.3267 66.3395 71.6733C66.9701 72.0199 67.4701 72.527 67.8395 73.1946C68.2088 73.8622 68.3934 74.6761 68.3934 75.6364ZM66.2372 75.6364C66.2372 75.0682 66.1562 74.5881 65.9943 74.196C65.8352 73.804 65.6051 73.5071 65.3039 73.3054C65.0056 73.1037 64.6463 73.0028 64.2258 73.0028C63.8082 73.0028 63.4488 73.1037 63.1477 73.3054C62.8466 73.5071 62.615 73.804 62.4531 74.196C62.294 74.5881 62.2145 75.0682 62.2145 75.6364C62.2145 76.2045 62.294 76.6847 62.4531 77.0767C62.615 77.4687 62.8466 77.7656 63.1477 77.9673C63.4488 78.169 63.8082 78.2699 64.2258 78.2699C64.6463 78.2699 65.0056 78.169 65.3039 77.9673C65.6051 77.7656 65.8352 77.4687 65.9943 77.0767C66.1562 76.6847 66.2372 76.2045 66.2372 75.6364ZM69.505 80V71.2727H73.1101C73.7635 71.2727 74.3274 71.4006 74.8018 71.6562C75.2791 71.9091 75.647 72.2628 75.9055 72.7173C76.1641 73.169 76.2933 73.6946 76.2933 74.294C76.2933 74.8963 76.1612 75.4233 75.897 75.875C75.6356 76.3239 75.2621 76.6719 74.7763 76.919C74.2905 77.1662 73.7138 77.2898 73.0462 77.2898H70.8217V75.6278H72.6541C72.9723 75.6278 73.2379 75.5724 73.451 75.4616C73.6669 75.3509 73.8302 75.196 73.941 74.9972C74.0518 74.7955 74.1072 74.5611 74.1072 74.294C74.1072 74.0241 74.0518 73.7912 73.941 73.5952C73.8302 73.3963 73.6669 73.2429 73.451 73.1349C73.2351 73.027 72.9695 72.973 72.6541 72.973H71.6143V80H69.505Z"
+                fill="currentColor"
+              />
+              <g clip-path="url(#clip1_2859_2255)">
+                <path
+                  d="M44.4661 17C49.7027 17 54.9364 17.0058 60.1701 17C61.4906 17 62.6697 17.3854 63.665 18.2836C64.6009 19.1239 65.1946 20.1786 65.3643 21.4478C65.4378 21.9954 65.4548 22.5547 65.4576 23.1081C65.4633 32.3919 65.4576 41.6728 65.4604 50.9567C65.4604 51.9621 65.5 52.9705 65.4972 53.9759C65.4944 54.8858 65.4633 55.7956 65.1126 56.6533C64.3464 58.528 62.9439 59.5799 61.0184 59.9392C60.7894 59.9826 60.5519 59.9913 60.3172 59.9913C50.7347 59.9971 41.1522 60 31.5698 60C30.5377 60 29.5028 60.0087 28.4708 59.9826C25.6291 59.9102 23.9694 57.766 23.6131 55.7116C23.5198 55.1755 23.5028 54.6221 23.5028 54.0745C23.5 46.3234 23.5 38.5724 23.5028 30.8214C23.5028 28.0137 23.5057 25.203 23.5 22.3953C23.4972 21.0305 23.9185 19.8309 24.8007 18.8081C25.8101 17.6404 27.0768 17.0087 28.6093 17.0087C33.8968 17 39.1815 17.0058 44.4689 17.0058L44.4661 17ZM44.7149 56.9894C47.6555 56.9894 50.5962 56.9894 53.5368 56.9894C55.8525 56.9894 58.1711 56.9894 60.4868 56.9749C61.3323 56.972 61.9176 56.5548 62.2257 55.7435C62.4661 55.1118 62.5255 54.4454 62.5255 53.776C62.5255 44.5907 62.5198 35.4054 62.5198 26.2172C62.5198 25.6608 62.5424 25.1074 62.5566 24.5511C62.5792 23.6412 62.6018 22.7343 62.3926 21.8389C62.1155 20.6538 61.4708 20.0917 60.2832 20.0222C59.9044 19.999 59.5198 20.0077 59.1409 20.0077C49.1767 20.0048 39.2126 20.0019 29.2484 20.0019C28.9345 20.0019 28.6178 20.0222 28.3068 20.0598C27.5547 20.1526 27.0005 20.5437 26.7234 21.2739C26.6046 21.584 26.5113 21.923 26.4944 22.2533C26.4519 23.0472 26.4519 23.8441 26.4519 24.638C26.4463 34.5361 26.4463 44.4371 26.4435 54.3352C26.4435 54.5815 26.4548 54.8307 26.483 55.077C26.5764 55.8565 26.9552 56.4389 27.6847 56.7084C28.0778 56.8532 28.5047 56.9315 28.9232 56.9691C29.4237 57.0155 29.9326 56.9865 30.4388 56.9865C35.1975 56.9865 39.9562 56.9865 44.7149 56.9865V56.9894Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M46.3003 47.3412C46.3918 47.3412 46.463 47.3412 46.5342 47.3412C47.7265 47.3412 48.9213 47.3412 50.1137 47.3412C50.7645 47.3412 51.4178 47.3204 52.0686 47.3568C52.811 47.3985 53.2533 47.8284 53.3525 48.5188C53.4593 49.2665 52.9508 49.9569 52.2161 50.0142C51.6721 50.0559 51.1229 50.0585 50.5763 50.0585C46.4045 50.0585 42.2301 50.0585 38.0583 50.0506C37.8066 50.0506 37.5397 50.0142 37.3083 49.9204C36.7846 49.7068 36.4846 49.0607 36.5863 48.4614C36.6931 47.8284 37.1253 47.4011 37.7761 47.3594C38.3608 47.3204 38.9481 47.3334 39.5328 47.3334C40.8573 47.3334 42.1818 47.3386 43.5063 47.3412C43.5318 47.3412 43.5572 47.3308 43.603 47.323V32.2438C43.5343 32.309 43.4809 32.3559 43.4326 32.4054C42.0674 33.8044 40.7022 35.2034 39.332 36.5998C39.1311 36.803 38.9277 37.014 38.6939 37.173C37.9744 37.6627 36.96 37.199 36.7338 36.3028C36.6296 35.8834 36.7262 35.5056 36.9677 35.1747C37.166 34.9012 37.3999 34.6485 37.6388 34.4062C38.9938 33.0358 40.3565 31.6733 41.7115 30.3003C42.3344 29.6699 42.9343 29.0107 43.5674 28.3933C43.8546 28.1119 44.1826 27.867 44.5232 27.656C44.902 27.4189 45.3063 27.4919 45.6571 27.7446C45.9037 27.9218 46.1274 28.1354 46.341 28.3542C48.2426 30.2821 50.1442 32.2126 52.0356 34.1509C52.3915 34.5156 52.722 34.9142 53.0195 35.3311C53.3144 35.7453 53.3372 36.2116 53.0703 36.6623C52.7906 37.1365 52.3763 37.3918 51.8246 37.3736C51.489 37.3631 51.2246 37.1782 50.9856 36.9593C50.4696 36.4878 49.9459 36.0214 49.4603 35.516C48.4332 34.4401 47.429 33.3407 46.4147 32.2491C46.3893 32.223 46.3588 32.1996 46.2952 32.1422V47.3386L46.3003 47.3412Z"
+                  fill="currentColor"
+                />
+              </g>
+            </g>
+          </g>
+          <defs>
+            <filter
+              id="filter0_d_2859_2255"
+              x="0"
+              y="0"
+              width="92"
+              height="92"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset />
+              <feGaussianBlur stdDeviation="2" />
+              <feComposite in2="hardAlpha" operator="out" />
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+              <feBlend
+                mode="normal"
+                in2="BackgroundImageFix"
+                result="effect1_dropShadow_2859_2255"
+              />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="effect1_dropShadow_2859_2255"
+                result="shape"
+              />
+            </filter>
+            <clipPath id="clip0_2859_2255">
+              <rect x="4" y="4" width="84" height="84" rx="10" fill="white" />
+            </clipPath>
+            <clipPath id="clip1_2859_2255">
+              <rect width="42" height="43" fill="white" transform="translate(23.5 17)" />
+            </clipPath>
+          </defs>
+        </svg>
+      </a>
+    </div>
+    <script src="./js/flowbite.min.js"></script>
+    <script src="./js/icon.js"></script>
+    <!-- <script src="./js/buildings.js"></script> -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+{"frames": {
+
+"boy-blue-00.png":
+{
+	"frame": {"x":0,"y":0,"w":36,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":55},
+	"sourceSize": {"w":36,"h":55}
+},
+"boy-blue-01.png":
+{
+	"frame": {"x":50,"y":0,"w":33,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":54},
+	"sourceSize": {"w":33,"h":54}
+},
+"boy-blue-02.png":
+{
+	"frame": {"x":100,"y":0,"w":50,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":58},
+	"sourceSize": {"w":50,"h":58}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "boy-blue.png",
+	"format": "RGBA8888",
+	"size": {"w":150,"h":58},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9bd3408a175ee6df3f5bc9aae49c0fbb:0618cec52b7ca687890e9efe66f5dfff:4c17a14c54fe230e91a8db48aaf75adc$"
+}
+}

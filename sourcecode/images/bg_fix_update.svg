@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.05 108.35">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #e4eef9;
+      }
+    </style>
+  </defs>
+  <g id="water">
+    <g class="cls-1">
+      <path class="cls-2" d="M159.45,15.87c36.64,21.16,36.84,55.46.43,76.61-36.41,21.16-95.62,21.16-132.27,0-36.64-21.16-36.84-55.46-.43-76.61,36.41-21.16,95.62-21.16,132.27,0Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+{"frames": {
+
+"boy-pink-00.png":
+{
+	"frame": {"x":0,"y":0,"w":33,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":62},
+	"sourceSize": {"w":33,"h":62}
+},
+"boy-pink-01.png":
+{
+	"frame": {"x":41,"y":0,"w":41,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":63},
+	"sourceSize": {"w":41,"h":63}
+},
+"boy-pink-02.png":
+{
+	"frame": {"x":82,"y":0,"w":38,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":60},
+	"sourceSize": {"w":38,"h":60}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "boy-pink.png",
+	"format": "RGBA8888",
+	"size": {"w":123,"h":63},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2048609e130e618c5e0ce333f4c9ed9b:f1379c12a473ba49c9dd19961f83e8b8:ee627f26c16d555dcc70c1c871eb6689$"
+}
+}
